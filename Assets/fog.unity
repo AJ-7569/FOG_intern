@@ -9988,6 +9988,7 @@ GameObject:
   - component: {fileID: 1865568863}
   - component: {fileID: 1865568865}
   - component: {fileID: 1865568864}
+  - component: {fileID: 1865568866}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -10108,6 +10109,55 @@ MonoBehaviour:
   startRecieving: 1
   printToConsole: 1
   data: 
+--- !u!114 &1865568866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865568860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7f9262200a84ffdbae646cb33d164e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - {fileID: 1138011278}
+  - {fileID: 684629228}
+  - {fileID: 541100999}
+  - {fileID: 1148971907}
+  - {fileID: 1779444783}
+  - {fileID: 1966056758}
+  - {fileID: 1122289516}
+  - {fileID: 1593710449}
+  - {fileID: 1482223371}
+  - {fileID: 1942521472}
+  - {fileID: 1773057295}
+  - {fileID: 1211749170}
+  - {fileID: 1516121262}
+  - {fileID: 1181451000}
+  - {fileID: 1337839987}
+  - {fileID: 1333506518}
+  - {fileID: 357642004}
+  - {fileID: 196103673}
+  - {fileID: 1415058127}
+  - {fileID: 803930359}
+  - {fileID: 895613263}
+  - {fileID: 661158880}
+  - {fileID: 1538531210}
+  - {fileID: 1135290219}
+  - {fileID: 498197855}
+  - {fileID: 236869587}
+  - {fileID: 1232744355}
+  - {fileID: 1001176327}
+  - {fileID: 63053776}
+  - {fileID: 1517529629}
+  - {fileID: 263172448}
+  - {fileID: 959462603}
+  - {fileID: 715026117}
+  - {fileID: 1532091147}
+  - {fileID: 816894766}
+  - {fileID: 1898725927}
 --- !u!1 &1898725927
 GameObject:
   m_ObjectHideFlags: 0

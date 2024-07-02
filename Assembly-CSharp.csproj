@@ -69,6 +69,7 @@
     <Compile Include="Assets/MidPoint.cs" />
     <Compile Include="Assets/GoalChecker.cs" />
     <Compile Include="Assets/UDPReceive.cs" />
+    <Compile Include="Assets/Colliders.cs" />
     <Compile Include="Assets/UDPReceive2.cs" />
     <Compile Include="Assets/HandTracking.cs" />
     <Compile Include="Assets/LineCode.Cs" />

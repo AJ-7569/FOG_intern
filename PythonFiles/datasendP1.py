@@ -4,7 +4,7 @@ import socket
 
 # Initialize camera parameters
 width, height = 1920, 1080
-cam1 = cv2.VideoCapture(0)  # First camera
+cam1 = cv2.VideoCapture(1)  # First camera
 cam1.set(3, width)
 cam1.set(4, height)
 
