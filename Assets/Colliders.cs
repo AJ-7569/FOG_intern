@@ -5,6 +5,7 @@ using UnityEngine;
 public class Colliders : MonoBehaviour
 {
     public GameObject[] lines;
+    public PhysicMaterial material;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,8 @@ public class Colliders : MonoBehaviour
             BoxCollider box = lines[i].GetComponent<BoxCollider>();
             Destroy(box);
             lines[i].AddComponent<BoxCollider>();
+            BoxCollider boxes = lines[i].GetComponent<BoxCollider>();
+            boxes.material = material;
         }
     }
 }
