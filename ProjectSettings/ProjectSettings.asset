@@ -752,12 +752,12 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 41d6e105-a665-44a3-86c5-bf806ffffdc2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Project
+  projectName: FOG
   organizationId: pervy_sage2004
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
