@@ -17,13 +17,18 @@ public class GoalChecker : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision other){
+    private void OnTriggerEnter(Collider other){
         if(rb.velocity.magnitude<0.1){
-            rb.velocity = new Vector3(0,0,50);
+            rb.velocity = new Vector3(0,0,20);
         }
-    }
+        GameObject otherGameObject = other.gameObject;
+        float alpha = otherGameObject.transform.rotation.y * Mathf.PI/ 180f;
+        float beta = Mathf.Atan(rb.velocity.z/rb.velocity.x);
 
-    void OnTriggerEnter(Collider other){
-        Debug.Log("Player Scores");
+        float answer = Mathf.PI/2 + alpha - beta;
+
+        Vector3 newVelocity = new Vector3(Mathf.Sin(answer), 0, -Mathf.Cos(answer));
+        Debug.Log("Hey Sexy");
+        rb.velocity = 50 * newVelocity;
     }
 }

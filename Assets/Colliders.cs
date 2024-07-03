@@ -22,6 +22,8 @@ public class Colliders : MonoBehaviour
             lines[i].AddComponent<BoxCollider>();
             BoxCollider boxes = lines[i].GetComponent<BoxCollider>();
             boxes.material = material;
+            boxes.isTrigger = true;
         }
     }
+    
 }
